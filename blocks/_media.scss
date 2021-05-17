@@ -1,0 +1,110 @@
+@media screen and (max-width: 375px) {
+   section {
+       background: url(../img/bg-mobile.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+    }
+    .header__logo {
+       margin-bottom: 100px;
+       width: 150px;
+    }
+   .header__telephone {
+       display: none;
+    }
+    img.header__phone {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        margin-top: -60px;
+        position: absolute;
+        right: 80px;
+    }
+    div.header-list {
+        display: none;
+    }
+    button.menu__btn {
+        position: absolute;
+        right: 10px;
+        margin-bottom: 110px;
+        img {
+            max-width: 35px;
+            max-height: 25px;
+        }
+    }
+    div.main-list, div.main-list2 {
+        display: none;
+    }
+    .arrows {
+        display: none;
+    }
+    h1.main__title {
+        max-width: 350px;
+        position: relative;
+        left: 10px;
+        font-size: 26px;
+        line-height: 40px;
+        margin: 0;
+        bottom: 200px;
+    }
+    img.main__img2 {
+        display: block;
+        top:420px;
+        margin: 0;
+        left: 315px;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+    }
+    img.main__img {
+        display: none;
+    }
+    div.flat__btn {
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+        margin-top: -500px;
+    }
+    div.flat__img {
+        display: none;
+    }
+    div.flat {
+        padding: 0;
+    }
+    div.flat__social {
+        display: none;
+    }
+    div.line {
+        display: none;
+    }
+    div.calc {
+        display: none;
+    }
+    .bgvideo1, .bgvideo2 {
+        display: none;
+    }
+    button.flat__btn__select {
+        font-size: 12px;
+        padding: 0 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 150px;
+        margin-top: 340px;
+        span {
+            font-size: 12px;
+        }
+    }
+    button.flat__btn__buy {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: -25px;
+        width: 200px;
+        span {
+            font-size: 12px;
+        }
+    }
+    button.search {
+        margin-top: 60px;
+        display: block;
+        margin-left: 10px;
+    }
+}
